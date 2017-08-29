@@ -21,6 +21,8 @@ import logging
 import matplotlib as mlt
 import matplotlib.pyplot as plt
 import networkx as nx
+from networkx.drawing.nx_agraph import graphviz_layout
+nx.graphviz_layout = graphviz_layout 
 import os
 
 log = logging.getLogger('analyzer')

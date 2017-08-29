@@ -1,0 +1,6 @@
+2017-08-29  phlummox  
+
+    * coffea/analyzer.py: Fix to imports so that coffea will work
+      with networkx version 1.11 - see 
+      https://stackoverflow.com/questions/35279733/what-could-cause-networkx-pygraphviz-to-work-fine-alone-but-not-together
+
